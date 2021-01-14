@@ -5,12 +5,6 @@
   See LICENSE.txt for more information
 */
 
-const config = {
-  serverUrl: 'http://localhost',
-  email: '',
-  password: ''
-};
-
 // get/set/delete (key, value) pair to localStorage
 export function getConfig(key, defaultValue) {
   if (key) {
@@ -33,5 +27,11 @@ export function removeConfig(key) {
     window.localStorage?.removeItem(key);
   }
 }
+
+const config = getConfig('config', {
+  serverUrl: "http://localhost",
+  email: "",
+  password: "",
+});
 
 export default config;

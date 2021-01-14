@@ -42,6 +42,6 @@ export default function ImgRender(id, props = {}, callback) {
   } else {
     // if the cache contains the image, get it from the cache and render it
     const imgData = _images.get(id);
-    return <img key={`img-${id}`} src={imgData} {...props} alt="" />;
+    return <img src={imgData} {...props} alt="" />;
   }
 }

@@ -230,8 +230,9 @@ class App extends React.Component {
   onConfigUpdated(needSignup) {
     const { editingConfig } = this.state;
     for (let [key, value] of Object.entries(editingConfig)) {
-      setConfig(key, value);
+      config[key] = value;
     }
+    setConfig('config', config);
     this.reload(needSignup);
   }
 
@@ -315,7 +316,7 @@ class App extends React.Component {
       <div className="images-container">
         {images.map((img) => {
           return (
-            <div className="img-container">
+            <div className="img-container" key={`img#${img.id}`}>
               <Dropdown
                 overlay={this.getDropdownMenu(img)}
                 placement="bottomCenter"

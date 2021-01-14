@@ -1,0 +1,69 @@
+/*
+  The shoppies project
+  Copyright (c) 2020 brucehe<bruce.he.62@gmail.com>
+  
+  See LICENSE.txt for more information
+*/
+
+.clickable {
+  cursor: pointer;
+}
+
+.app {
+  min-width: 800px;
+  padding: 64px 80px;
+  background-color: #eee;
+}
+
+.app-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.section {
+  padding: 16px;
+  background-color: white;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+/** search bar section */
+.search-bar {
+  width: 100%;
+}
+
+.search-bar-title {
+  margin: 0 0 4px 0;
+}
+
+.search-bar-input {
+  margin: 8px 0;
+  width: 100%;
+}
+
+/** image section */
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  width: 120px;
+  margin: 8px;
+}
+
+.img-container:hover ~ .img-container {
+    background-color: yellow;
+}
+
+.img-name {
+  font-size: 1em;
+  overflow-wrap: break-word;
+}
+
+.action-button {
+  display: list-item;
+  margin: 8px 0;
+}

@@ -54,10 +54,6 @@
   margin: 8px;
 }
 
-.img-container:hover ~ .img-container {
-    background-color: yellow;
-}
-
 .img-name {
   font-size: 1em;
   overflow-wrap: break-word;

@@ -1,7 +1,7 @@
-# Shoppies Image Repository
+# Image Repository
 The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). <br><br>
 
-It is a simple test workbench for the backend project [Shoppies Image Repository](https://github.com/zm2he/imgrepo), allows you get image list, search images by name, download images, delete images, upload images...all from the web<br>
+It is a simple test workbench for the backend project [Image Repository](https://github.com/zm2he/imgrepo), allows you get image list, search images by name, download images, delete images, upload images...all from the web<br>
 
 <br><br><img src="./public/static/image/imgrepo-web.png" /><br><br>
 

@@ -3,7 +3,7 @@ The project was bootstrapped with [Create React App](https://github.com/facebook
 
 It is a simple test workbench for the backend project [Image Repository](https://github.com/zm2he/imgrepo), allows you get image list, search images by name, download images, delete images, upload images...all from the web<br>
 
-<br><br><img src="./public/static/image/imgrepo-web.png" /><br><br>
+<br><br><br><br>
 
 # Run the app
 To run the app locally<br>
@@ -15,4 +15,4 @@ Then upload the entire folder /build to a server
 
 # References
 [1] [Create React App](https://github.com/facebook/create-react-app)<br>
-[2] [Shoppies' Image Repository](http://github.com/zm2he/imgrepo)<br>
+[2] [Image Repository](http://github.com/zm2he/imgrepo)<br>

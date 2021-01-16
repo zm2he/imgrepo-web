@@ -1,5 +1,5 @@
 /*
-  The shoppies project
+  Bruce's project
   Copyright (c) 2021 brucehe<bruce.he.62@gmail.com>
   
   See LICENSE.txt for more information

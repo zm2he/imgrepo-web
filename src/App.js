@@ -1,5 +1,5 @@
 /*
-  The shoppies project
+  Bruce's project
   Copyright (c) 2021 brucehe<bruce.he.62@gmail.com>
   
   See LICENSE.txt for more information
@@ -358,7 +358,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <div style={{ display: "flex" }}>
-          <span className="app-title">The Shoppies</span>
+          <span className="app-title">Bruce's Image Repository</span>
           <span style={{ flex: "auto" }} />
           <Popover
             placement="topLeft"

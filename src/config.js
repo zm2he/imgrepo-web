@@ -1,5 +1,5 @@
 /*
-  The shoppies project
+  Bruce's project
   Copyright (c) 2021 brucehe<bruce.he.62@gmail.com>
   
   See LICENSE.txt for more information
@@ -28,10 +28,10 @@ export function removeConfig(key) {
   }
 }
 
-const config = getConfig('config', {
-  serverUrl: "http://localhost",
-  email: "",
-  password: "",
+const config = getConfig("config", {
+  serverUrl: "http://52.73.210.69",
+  email: "guest@gmail.com",
+  password: "password",
 });
 
 export default config;

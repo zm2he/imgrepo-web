@@ -29,7 +29,9 @@ export function removeConfig(key) {
 }
 
 const config = getConfig("config", {
-  serverUrl: "http://52.73.210.69",
+  //serverUrl: "http://52.73.210.69",
+  serverUrl:
+    "https://imgrepo-loadbalancer-2005721160.us-east-1.elb.amazonaws.com",
   email: "guest@gmail.com",
   password: "password",
 });

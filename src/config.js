@@ -29,7 +29,7 @@ export function removeConfig(key) {
 }
 
 const config = getConfig("config", {
-  serverUrl: "https://brucehe.ga",
+  serverUrl: "http://35.173.93.67:8080",
   email: "guest@gmail.com",
   password: "password",
 });

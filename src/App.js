@@ -111,7 +111,7 @@ class App extends React.Component {
     return {
       name: "images",
       accept: "image/*",
-      action: `${config.serverUrl}/images?type=${uploadFileType}`,
+      action: `${config.serverUrl}/api/images?type=${uploadFileType}`,
       headers: {
         email: config.email,
         password: config.password,

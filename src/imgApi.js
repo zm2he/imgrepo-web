@@ -47,15 +47,15 @@ function _fetchJson(url, method = "GET", body = undefined) {
 }
 
 export function getImageList() {
-  return _fetchJson(`/images`, "GET");
+  return _fetchJson(`/api/images`, "GET");
 }
 
 export function searchImages(q) {
-  return _fetchJson(`/images/search?q=${q}`, "GET");
+  return _fetchJson(`/api/images/search?q=${q}`, "GET");
 }
 
 export function deleteImage(id) {
-  return _fetchJson(`/images/${id}`, "DELETE");
+  return _fetchJson(`/api/images/${id}`, "DELETE");
 }
 
 /**
@@ -64,7 +64,7 @@ export function deleteImage(id) {
  */
 export function login(needSignup) {
   return fetch(
-    _concateURIComponents(config.serverUrl, needSignup ? "/signup" : "/login"),
+    _concateURIComponents(config.serverUrl, needSignup ? "api/signup" : "api/login"),
     {
       method: "POST",
       headers: {
@@ -82,7 +82,7 @@ export function login(needSignup) {
  */
 export function downloadImage(id, type = "original") {
   return fetch(
-    _concateURIComponents(config.serverUrl, `/images/${id}?type=${type}`),
+    _concateURIComponents(config.serverUrl, `/api/images/${id}?type=${type}`),
     {
       method: "GET",
       headers: {
